@@ -6,19 +6,21 @@
 }
 
 .container {
-  margin: auto;
-  width: 81.5%;
+  width: 100%;
 }
 .container #nav {
-  padding: 21px 0px;
+  padding: 1.3rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   width: 100%;
+  margin: auto;
+  width: 81.5%;
+  background-color: white;
 }
 .container #nav .kataloq {
-  padding: 14px 19px;
+  padding: 0.9rem 1.18rem;
   background-color: #fb9300;
   border-radius: 10px;
   display: flex;
@@ -39,14 +41,14 @@
   justify-content: center;
 }
 .container #nav .kataloq .inner .text {
-  margin: 0 4px 0 7px;
+  margin: 0 0.25rem 0 0.45rem;
 }
 .container #nav .logo {
-  margin-left: 50px;
+  margin-left: 3.1rem;
 }
 .container #nav .search {
   width: 60%;
-  margin-left: 50px;
+  margin-left: 3.1rem;
 }
 .container #nav .search .input {
   width: 100%;
@@ -60,7 +62,31 @@
   outline: none;
   border: 1px solid #ebecef;
   border-radius: 30px;
-  padding-left: 15px;
+  padding-left: 0.95rem;
+}
+.container #nav .search .input input::-moz-placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18px;
+  color: #343f56;
+}
+.container #nav .search .input input:-ms-input-placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18px;
+  color: #343f56;
+}
+.container #nav .search .input input::placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 18px;
+  color: #343f56;
 }
 .container #nav .search .input button {
   top: 50%;
@@ -81,7 +107,7 @@
 }
 .container #nav .user-info {
   display: flex;
-  margin-left: 50px;
+  margin-left: 3.1rem;
 }
 .container #nav .user-info .shopping-card {
   display: flex;
@@ -112,12 +138,108 @@
 }
 .container #nav .user-info .auth {
   display: flex;
-  margin-left: 30px;
+  margin-left: 1.9rem;
   align-items: center;
 }
 .container #nav .user-info .auth .user-icon {
   margin-right: 8px;
 }
 .container #nav .liked {
-  margin-left: 28px;
+  margin-left: 1.75rem;
+}
+.container #nav2 {
+  display: none;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #EDEDED;
+}
+.container #nav2 .logo {
+  margin-left: 3.1rem;
+  width: 50%;
+}
+.container #nav2 .right-side {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container #nav2 .right-side .shopping-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-inline: 1px solid #EDEDED;
+  text-align: center;
+  padding: 12px;
+}
+.container #nav2 .right-side .shopping-card .shopping-card-icon {
+  display: flex;
+  position: relative;
+  height: 29px;
+  margin: auto;
+}
+.container #nav2 .right-side .shopping-card .shopping-card-icon .shopping-count {
+  position: absolute;
+  bottom: 62%;
+  right: -3px;
+  background: #fb9300;
+  border: 1px solid #ffffff;
+  width: 16px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #nav2 .right-side .shopping-card .name {
+  font-size: 10px;
+}
+.container #nav2 .right-side .input {
+  border-left: 1px solid #EDEDED;
+  padding: 12px;
+}
+.container #nav2 .right-side .input .search-button button {
+  width: 24px;
+  aspect-ratio: 1/1;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.container #nav2 .right-side .input .search-button button i {
+  font-size: 24px;
+  height: 29px;
+}
+.container #nav2 .right-side .input p {
+  font-size: 10px;
+}
+.container #nav2 .right-side .kataloq {
+  padding: 12px;
+}
+.container #nav2 .right-side .kataloq svg {
+  height: 25px;
+}
+.container #nav2 .right-side .kataloq .name {
+  font-size: 10px;
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 870px) {
+  html {
+    font-size: 10px;
+  }
+  .container #nav {
+    display: none;
+  }
+  .container #nav2 {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
