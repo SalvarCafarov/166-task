@@ -1,3 +1,4 @@
+
 const popularProducts = document.querySelector('.cards')
 const products = [
     {
@@ -46,3 +47,18 @@ products.map(item=>{
 <div class="card-button"> <span> pulsuz çatddırılma </span></div>`
 popularProducts.appendChild(card)
 })
+var swiper = new Swiper(".mySwiper", {
+        slidesPerView:4,
+        spaceBetween: 2,
+        slidesPerGroup: 5,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });

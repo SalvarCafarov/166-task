@@ -3,6 +3,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "DM Sans";
+}
+
+body {
+  background-color: #e5e5e5;
 }
 
 .container {
@@ -10,53 +15,55 @@
 }
 .container #nav {
   padding: 1.3rem 0;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+}
+.container #nav .inner {
+  margin: auto;
+  width: 81.5%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  width: 100%;
-  margin: auto;
-  width: 81.5%;
-  background-color: white;
 }
-.container #nav .kataloq {
+.container #nav .inner .kataloq {
   padding: 0.9rem 1.18rem;
   background-color: #fb9300;
   border-radius: 10px;
   display: flex;
   color: white;
 }
-.container #nav .kataloq .inner {
+.container #nav .inner .kataloq .inner {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container #nav .kataloq .inner span {
+.container #nav .inner .kataloq .inner span {
   height: 100%;
   align-items: center;
 }
-.container #nav .kataloq .inner span:last-of-type {
+.container #nav .inner .kataloq .inner span:last-of-type {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container #nav .kataloq .inner .text {
+.container #nav .inner .kataloq .inner .text {
   margin: 0 0.25rem 0 0.45rem;
 }
-.container #nav .logo {
+.container #nav .inner .logo {
   margin-left: 3.1rem;
 }
-.container #nav .search {
+.container #nav .inner .search {
   width: 60%;
   margin-left: 3.1rem;
 }
-.container #nav .search .input {
+.container #nav .inner .search .input {
   width: 100%;
   display: flex;
   height: 48px;
   position: relative;
 }
-.container #nav .search .input input {
+.container #nav .inner .search .input input {
   width: 100%;
   height: 100%;
   outline: none;
@@ -64,7 +71,7 @@
   border-radius: 30px;
   padding-left: 0.95rem;
 }
-.container #nav .search .input input::-moz-placeholder {
+.container #nav .inner .search .input input::-moz-placeholder {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
@@ -72,7 +79,7 @@
   line-height: 18px;
   color: #343f56;
 }
-.container #nav .search .input input:-ms-input-placeholder {
+.container #nav .inner .search .input input:-ms-input-placeholder {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
@@ -80,7 +87,7 @@
   line-height: 18px;
   color: #343f56;
 }
-.container #nav .search .input input::placeholder {
+.container #nav .inner .search .input input::placeholder {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
@@ -88,7 +95,7 @@
   line-height: 18px;
   color: #343f56;
 }
-.container #nav .search .input button {
+.container #nav .inner .search .input button {
   top: 50%;
   transform: translate(0, -50%);
   position: absolute;
@@ -102,23 +109,23 @@
   align-items: center;
   justify-content: center;
 }
-.container #nav .search .input button i {
+.container #nav .inner .search .input button i {
   font-size: 16px;
 }
-.container #nav .user-info {
+.container #nav .inner .user-info {
   display: flex;
   margin-left: 3.1rem;
 }
-.container #nav .user-info .shopping-card {
+.container #nav .inner .user-info .shopping-card {
   display: flex;
   align-items: center;
 }
-.container #nav .user-info .shopping-card .shopping-card-icon {
+.container #nav .inner .user-info .shopping-card .shopping-card-icon {
   display: flex;
   position: relative;
   margin-right: 10px;
 }
-.container #nav .user-info .shopping-card .shopping-card-icon .shopping-count {
+.container #nav .inner .user-info .shopping-card .shopping-card-icon .shopping-count {
   position: absolute;
   bottom: 62%;
   right: -3px;
@@ -136,15 +143,15 @@
   justify-content: center;
   align-items: center;
 }
-.container #nav .user-info .auth {
+.container #nav .inner .user-info .auth {
   display: flex;
   margin-left: 1.9rem;
   align-items: center;
 }
-.container #nav .user-info .auth .user-icon {
+.container #nav .inner .user-info .auth .user-icon {
   margin-right: 8px;
 }
-.container #nav .liked {
+.container #nav .inner .liked {
   margin-left: 1.75rem;
 }
 .container #nav2 {
@@ -152,7 +159,7 @@
   align-items: center;
   width: 100%;
   margin: auto;
-  border-bottom: 1px solid #EDEDED;
+  border-bottom: 1px solid #ededed;
 }
 .container #nav2 .logo {
   margin-left: 3.1rem;
@@ -168,7 +175,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-inline: 1px solid #EDEDED;
+  border-inline: 1px solid #ededed;
   text-align: center;
   padding: 12px;
 }
@@ -200,7 +207,7 @@
   font-size: 10px;
 }
 .container #nav2 .right-side .input {
-  border-left: 1px solid #EDEDED;
+  border-left: 1px solid #ededed;
   padding: 12px;
 }
 .container #nav2 .right-side .input .search-button button {
@@ -349,6 +356,29 @@
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.container .main .content .location {
+  text-align: left;
+  margin: auto;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 28px 0;
+  color: #2d2d2d;
+}
+.container .main .content .products .left {
+  width: 25%;
+}
+.container .main .content .products .left .mySwiper .swiper-wrapper {
+  margin-left: 30px;
+}
+.container .main .content .products .left .mySwiper .swiper-wrapper .swiper-slide .slide-img {
+  width: 35px;
+}
+.container .main .content .products .left .mySwiper .swiper-wrapper .swiper-slide .slide-img svg {
+  width: 100%;
 }
 .container .footer {
   background: #18181a;
