@@ -1,3 +1,35 @@
+@media (max-width: 1300px) {
+  .container {
+    .main {
+      .content {
+        .popular {
+          .cards {
+            .card {
+              .price-product {
+                .price {
+                  font-size: 1rem;
+                  line-height: 1.3rem;
+                }
+                .credit {
+                  padding: 6px 8px;
+                  .percent {
+                    font-size: 0.6rem;
+                    line-height: 1rem;
+                  }
+                  .money-of-month {
+                    font-size: 0.6rem;
+                    line-height: 1rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 1050px) {
   html {
     font-size: 12px;
@@ -7,25 +39,38 @@
   html {
     font-size: 10px;
   }
- .container{
-  #nav{
-    display: none;
+  .container {
+    #nav {
+      display: none;
+    }
+    #nav2 {
+      display: flex;
+    }
+    .main {
+      .content {
+        .popular {
+          display: none;
+        }
+      }
+    }
+    .footer {
+      display: none;
+    }
+    .footer2 {
+      display: block;
+    }
   }
-  #nav2{
-    display: flex;
-  }
- }
-//   .container {
-//     #nav {
-//       .search {
-//         .input {
-//           input {
-//             &::placeholder {
-//               font-size: 12px;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
+  //   .container {
+  //     #nav {
+  //       .search {
+  //         .input {
+  //           input {
+  //             &::placeholder {
+  //               font-size: 12px;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
 }

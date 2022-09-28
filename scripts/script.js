@@ -47,6 +47,7 @@ products.map(item=>{
 <div class="card-button"> <span> pulsuz çatddırılma </span></div>`
 popularProducts.appendChild(card)
 })
+
 var swiper = new Swiper(".mySwiper", {
         slidesPerView:4,
         spaceBetween: 2,
@@ -62,3 +63,60 @@ var swiper = new Swiper(".mySwiper", {
           prevEl: ".swiper-button-prev",
         },
       });
+      const displayContacts = document.querySelector('#showContact')
+      const contactIcon = document.querySelector('#contactIcon')
+      const locationContact = document.querySelector('.reLocation')
+      const mailContact = document.querySelector('.reMail')
+      
+      displayContacts.addEventListener('click', showContacts)
+      function showContacts() {
+          if (contactIcon.classList == 'ri-arrow-right-s-line') {
+              contactIcon.classList.remove("ri-arrow-right-s-line")
+              contactIcon.classList.add("ri-arrow-down-s-line")
+              locationContact.style.display = 'flex'
+              mailContact.style.display = 'flex'
+      
+          }
+          else {
+              contactIcon.classList.remove("ri-arrow-down-s-line")
+              contactIcon.classList.add("ri-arrow-right-s-line")
+              locationContact.style.display = 'none'
+              mailContact.style.display = 'none'
+      
+          }
+      }
+      const displayBusiness = document.querySelector('#showBusiness')
+      const businessIcon = document.querySelector('#businessIcon')
+      const contentBusiness = document.querySelector('.reBusiness')
+      
+      displayBusiness.addEventListener('click', showBusiness)
+      function showBusiness() {
+          if (businessIcon.classList == 'ri-arrow-right-s-line') {
+              businessIcon.classList.remove("ri-arrow-right-s-line")
+              businessIcon.classList.add("ri-arrow-down-s-line")
+              contentBusiness.style.display = 'block'
+          }
+          else {
+              businessIcon.classList.remove("ri-arrow-down-s-line")
+              businessIcon.classList.add("ri-arrow-right-s-line")
+              contentBusiness.style.display = 'none'
+          }
+      }
+      const displayCustomers = document.querySelector('#showCustomers')
+      const customerIcon = document.querySelector('#customerIcon')
+      const contentCustomer = document.querySelector('.reCustomers')
+      
+      displayCustomers.addEventListener('click', showCustomers)
+      function showCustomers() {
+          if (customerIcon.classList == 'ri-arrow-right-s-line') {
+              customerIcon.classList.remove("ri-arrow-right-s-line")
+              customerIcon.classList.add("ri-arrow-down-s-line")
+              contentCustomer.style.display = 'block'
+          }
+          else {
+              customerIcon.classList.remove("ri-arrow-down-s-line")
+              customerIcon.classList.add("ri-arrow-right-s-line")
+              contentCustomer.style.display = 'none'
+          }
+      }
+      

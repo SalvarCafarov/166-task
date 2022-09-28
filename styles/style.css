@@ -535,7 +535,153 @@ body {
 .container .footer .footer-content .footer-bottom .logo i {
   font-size: 12px;
 }
+.container .footer2 {
+  display: none;
+  background: #18181a;
+  color: white;
+}
+.container .footer2 hr {
+  border: 1px solid #3d3d3d;
+  margin: 22px 0;
+}
+.container .footer2 .footer-content {
+  margin: auto;
+  width: 93%;
+  padding-top: 25px;
+}
+.container .footer2 .footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer2 .footer-top .logo {
+  display: flex;
+  align-items: center;
+}
+.container .footer2 .footer-top .contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.2rem;
+  line-height: 4.9rem;
+}
+.container .footer2 .footer-top .contact .star {
+  color: #fb9300;
+}
+.container .footer2 .footer-main .contact-info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+.container .footer2 .footer-main .contact-info .title {
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer2 .footer-main .contact-info .location {
+  display: none;
+  align-items: center;
+  margin: 7px 0;
+}
+.container .footer2 .footer-main .contact-info .location i {
+  margin-right: 8px;
+}
+.container .footer2 .footer-main .contact-info .mail {
+  display: none;
+  align-items: center;
+}
+.container .footer2 .footer-main .contact-info .mail i {
+  margin-right: 8px;
+}
+.container .footer2 .footer-main .business .title {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+.container .footer2 .footer-main .business .content {
+  display: none;
+  color: #95979c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+.container .footer2 .footer-main .customers .title {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+.container .footer2 .footer-main .customers .content {
+  display: none;
+  color: #95979c;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+}
+.container .footer2 .footer-main .social-medias {
+  display: flex;
+  margin-top: 7.8rem;
+  font-size: 1.6rem;
+}
+.container .footer2 .footer-main .social-medias div {
+  border-radius: 50%;
+  border: 1px solid #95979c;
+  color: #95979c;
+  width: 40px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.container .footer2 .footer-main .social-medias div:last-of-type {
+  margin-right: 0;
+}
+.container .footer2 .footer-main .social-medias div:hover {
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+.container .footer2 .footer-main .footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  padding-bottom: 5rem;
+}
 
+@media (max-width: 1300px) {
+  .container .main .content .popular .cards .card .price-product .price {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .container .main .content .popular .cards .card .price-product .credit {
+    padding: 6px 8px;
+  }
+  .container .main .content .popular .cards .card .price-product .credit .percent {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+  .container .main .content .popular .cards .card .price-product .credit .money-of-month {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+}
 @media (max-width: 1050px) {
   html {
     font-size: 12px;
@@ -550,5 +696,14 @@ body {
   }
   .container #nav2 {
     display: flex;
+  }
+  .container .main .content .popular {
+    display: none;
+  }
+  .container .footer {
+    display: none;
+  }
+  .container .footer2 {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
