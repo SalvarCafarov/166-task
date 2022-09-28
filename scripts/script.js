@@ -43,6 +43,6 @@ products.map(item=>{
        <span class="money-of-month">18 ay, ${item.moneyOfMonth}₼</span>
    </div>
 </div>
-<div class="card-button"> <span> pulsuz çatddırılma </span></div>`
+<div class="card-button"> <span> pulsuz çatdırılma </span></div>`
 popularProducts.appendChild(card)
 })
