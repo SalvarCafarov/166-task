@@ -226,6 +226,285 @@
 .container #nav2 .right-side .kataloq .name {
   font-size: 10px;
 }
+.container .main {
+  background: #e5e5e5;
+}
+.container .main .content {
+  margin: auto;
+  width: 81.5%;
+}
+.container .main .content .popular {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container .main .content .popular .title {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .content .popular .title .left {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.625rem;
+  /* identical to box height */
+  color: #2d2d2d;
+}
+.container .main .content .popular .title .right {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+.container .main .content .popular .title .right span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .main .content .popular .title .right span i {
+  margin-top: 2px;
+}
+.container .main .content .popular .cards {
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .content .popular .cards .card {
+  padding: 20px;
+  width: 24.8%;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.container .main .content .popular .cards .card .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container .main .content .popular .cards .card .top img {
+  width: 110px;
+}
+.container .main .content .popular .cards .card .product-name {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 140%;
+  color: #818181;
+  margin-top: 20px;
+  max-width: 190px;
+}
+.container .main .content .popular .cards .card .price-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.container .main .content .popular .cards .card .price-product .price {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+  color: #2d2d2d;
+}
+.container .main .content .popular .cards .card .price-product .credit {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding: 10px 14px;
+}
+.container .main .content .popular .cards .card .price-product .credit .percent {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #ff0000;
+}
+.container .main .content .popular .cards .card .price-product .credit .money-of-month {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #2d2d2d;
+}
+.container .main .content .popular .cards .card .card-button {
+  margin-top: 28px;
+  border: 0.5px solid #009e36;
+  border-radius: 5px;
+  width: 100%;
+  padding: 11px 0;
+  text-align: center;
+  color: #009e36;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.container .footer {
+  background: #18181a;
+  color: white;
+}
+.container .footer .footer-content {
+  margin: auto;
+  width: 81.5%;
+  padding-top: 95px;
+}
+.container .footer .footer-content .footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer .footer-content .footer-top .sociality .social-media {
+  margin-top: 63px;
+}
+.container .footer .footer-content .footer-top .sociality .social-media .social-message {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+}
+.container .footer .footer-content .footer-top .sociality .social-media .social-medias {
+  display: flex;
+  margin-top: 20px;
+}
+.container .footer .footer-content .footer-top .sociality .social-media .social-medias div {
+  border-radius: 50%;
+  border: 1px solid #95979c;
+  color: #95979c;
+  width: 40px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.container .footer .footer-content .footer-top .sociality .social-media .social-medias div span {
+  height: 1rem;
+}
+.container .footer .footer-content .footer-top .sociality .social-media .social-medias div:last-of-type {
+  margin-right: 0;
+}
+.container .footer .footer-content .footer-top .sociality .social-media .social-medias div:hover {
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+.container .footer .footer-content .footer-top .business .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+}
+.container .footer .footer-content .footer-top .business .content {
+  margin-top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #95979c;
+}
+.container .footer .footer-content .footer-top .business .content p {
+  margin-bottom: 10px;
+}
+.container .footer .footer-content .footer-top .customers .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+}
+.container .footer .footer-content .footer-top .customers .content {
+  margin-top: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #95979c;
+}
+.container .footer .footer-content .footer-top .customers .content p {
+  margin-bottom: 10px;
+}
+.container .footer .footer-content .footer-top .contact-info .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+}
+.container .footer .footer-content .footer-top .contact-info .contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+}
+.container .footer .footer-content .footer-top .contact-info .contact .star {
+  color: #fb9300;
+}
+.container .footer .footer-content .footer-top .contact-info .location {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+}
+.container .footer .footer-content .footer-top .contact-info .location i {
+  margin-right: 15px;
+}
+.container .footer .footer-content .footer-top .contact-info .mail {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+}
+.container .footer .footer-content .footer-top .contact-info .mail i {
+  margin-right: 15px;
+}
+.container .footer .footer-content hr {
+  margin-top: 84px;
+  border: 1px solid #474747;
+}
+.container .footer .footer-content .footer-bottom {
+  padding: 30px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .footer .footer-content .footer-bottom .logo {
+  margin-right: 10px;
+}
+.container .footer .footer-content .footer-bottom .logo i {
+  font-size: 12px;
+}
 
 @media (max-width: 1050px) {
   html {
