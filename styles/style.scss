@@ -1,126 +1,200 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
-$dm-sans: "DM Sans", sans-serif;
+$dm-sans: "DM Sans",
+sans-serif;
 $orange: #fb9300;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.container{
+
+.container {
+
+  #nav {
+    padding: 21px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     width: 81.5%;
-    #nav {
-        padding: 21px 0px;
+
+    .kataloq {
+      padding: 14px 19px;
+      background-color: $orange;
+      border-radius: 10px;
+      display: flex;
+      color: white;
+      .inner {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0;
-        width: 100%;
-        .kataloq {
-          padding: 14px 19px;
-          background-color: $orange;
-          border-radius: 10px;
-          display: flex;
-          color: white;
-          .inner {
+        span {
+          &:last-of-type {
             display: flex;
             align-items: center;
             justify-content: center;
-            span {
-              &:last-of-type {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-              }
-              height: 100%;
-              align-items: center;
-            }
-            .text{
-                margin: 0 4px 0 7px;
-            }
+          }
+          height: 100%;
+          align-items: center;
+        }
+
+        .text {
+          margin: 0 4px 0 7px;
+        }
+      }
+    }
+
+    .logo {
+      margin-left: 50px;
+    }
+
+    .search {
+      width: 60%;
+
+      margin-left: 50px;
+
+      .input {
+        width: 100%;
+        display: flex;
+        height: 48px;
+        position: relative;
+
+        input {
+          width: 100%;
+          height: 100%;
+          outline: none;
+          border: 1px solid #ebecef;
+          border-radius: 30px;
+          padding-left: 15px;
+        }
+
+        button {
+          top: 50%;
+          transform: translate(0, -50%);
+          position: absolute;
+          right: 5px;
+          width: 38px;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+          background: #ebecef;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          i {
+            font-size: 16px;
           }
         }
-        .logo {
-          margin-left: 50px;
-        }
-        .search {
-          width: 60%;
-      
-          margin-left: 50px;
-          .input {
-            width: 100%;
+      }
+    }
+
+    .user-info {
+      display: flex;
+      margin-left: 50px;
+
+      .shopping-card {
+        display: flex;
+        align-items: center;
+
+        .shopping-card-icon {
+          display: flex;
+          position: relative;
+          margin-right: 10px;
+
+          .shopping-count {
+            position: absolute;
+            bottom: 62%;
+            right: -3px;
+            background: #fb9300;
+            border: 1px solid #ffffff;
+            width: 16px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 13px;
             display: flex;
-            height: 48px;
-            position: relative;
-            input {
-              width: 100%;
-              height: 100%;
-              outline: none;
-              border: 1px solid #ebecef;
-              border-radius: 30px;
-              padding-left: 15px;
-            }
-            button {
-              top: 50%;
-              transform: translate(0, -50%);
-              position: absolute;
-              right: 5px;
-              width: 38px;
-              aspect-ratio: 1/1;
-              border-radius: 50%;
-              background: #ebecef;
-              border: none;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+
+      .auth {
+        display: flex;
+        margin-left: 30px;
+        align-items: center;
+
+        .user-icon {
+          margin-right: 8px;
+
+        }
+      }
+    }
+
+    .liked {
+      margin-left: 28px;
+    }
+  }
+
+  .main {
+    background: #E5E5E5;
+
+    .content {
+      margin: auto;
+      width: 81.5%;
+
+      .popular {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .title {
+          display: flex;
+          justify-content: space-between;
+
+          .left {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2.625rem;
+            /* identical to box height */
+
+
+            color: #2D2D2D;
+          }
+
+          .right {
+            background: #FFFFFF;
+            border-radius: 10px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 0.875rem;
+            line-height: 1.125rem;
+
+            color: #2D2D2D;
+
+            span {
               display: flex;
               align-items: center;
               justify-content: center;
+
               i {
-                font-size: 16px;
+                margin-top: 2px;
               }
             }
           }
-        }
-        .user-info {
-          display: flex;
-          margin-left: 50px;
-          .shopping-card {
-            display: flex;
-            align-items: center;
-            .shopping-card-icon {
-              display: flex;
-              position: relative;
-              margin-right: 10px;
-              .shopping-count {
-                position: absolute;
-                bottom: 62%;
-                right: -3px;
-                background: #fb9300;
-                border: 1px solid #ffffff;
-                width: 16px;
-                aspect-ratio: 1/1;
-                border-radius: 50%;
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 500;
-                font-size: 11px;
-                line-height: 13px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              }
-            }
-          }
-          .auth {
-            display: flex;
-            margin-left: 30px;
-            align-items: center;
-            .user-icon{
-              margin-right: 8px;
-              
-            }
-          }
-        }
-        .liked {
-          margin-left: 28px;
         }
       }
+    }
+  }
 }
