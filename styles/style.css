@@ -285,16 +285,19 @@ body {
 .container .main .content .comments .top p i:last-of-type {
   color: #ededed;
 }
-.container .main .content .comments .user-comment .comment-info {
+.container .main .content .comments .user-comments .last {
+  opacity: 0.4;
+}
+.container .main .content .comments .user-comments .user-comment .comment-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .main .content .comments .user-comment .comment-info .info-user {
+.container .main .content .comments .user-comments .user-comment .comment-info .info-user {
   display: flex;
   align-items: center;
 }
-.container .main .content .comments .user-comment .comment-info .info-user .name-sur {
+.container .main .content .comments .user-comments .user-comment .comment-info .info-user .name-sur {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -302,7 +305,7 @@ body {
   line-height: 170%;
   color: #000000;
 }
-.container .main .content .comments .user-comment .comment-info .info-user span {
+.container .main .content .comments .user-comments .user-comment .comment-info .info-user span {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -311,7 +314,7 @@ body {
   color: #a4a4a4;
   margin: 0 20px;
 }
-.container .main .content .comments .user-comment .comment-info .info-user .date-commnet {
+.container .main .content .comments .user-comments .user-comment .comment-info .info-user .date-commnet {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -321,14 +324,14 @@ body {
   /* delet icon color */
   color: #a4a4a4;
 }
-.container .main .content .comments .user-comment .comment-info .rating-comment {
+.container .main .content .comments .user-comments .user-comment .comment-info .rating-comment {
   display: flex;
   align-items: center;
 }
-.container .main .content .comments .user-comment .comment-info .rating-comment i {
+.container .main .content .comments .user-comments .user-comment .comment-info .rating-comment i {
   margin: 0 3px;
 }
-.container .main .content .comments .user-comment .comment-content {
+.container .main .content .comments .user-comments .user-comment .comment-content {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -337,15 +340,31 @@ body {
   color: #2D2D2D;
   width: 100%;
 }
-.container .main .content .comments .user-comment .comment-content p {
+.container .main .content .comments .user-comments .user-comment .comment-content p {
   width: 97%;
 }
 .container .main .content .comments .more {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.container .main .content .comments .more:hover {
+  color: red;
 }
 .container .main .content .comments .more .more-text {
+  margin-right: 1rem;
+}
+.container .main .content .comments .nonMore {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container .main .content .comments .nonMore:hover {
+  color: red;
+}
+.container .main .content .comments .nonMore .more-text {
   margin-right: 1rem;
 }
 .container .main .content .popular {
@@ -464,6 +483,7 @@ body {
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1rem;
+  cursor: pointer;
 }
 .container .main .content .location {
   text-align: left;

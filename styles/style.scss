@@ -273,69 +273,91 @@ body {
             }
           }
         }
-        .user-comment {
-          .comment-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .info-user {
-              display: flex;
-              align-items: center;
-              .name-sur {
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 500;
-                font-size: 1rem;
-                line-height: 170%;
-                color: #000000;
-              }
-              span {
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 300;
-                font-size: 14px;
-                line-height: 170%;
-                color: #a4a4a4;
-                margin: 0 20px;
-              }
-              .date-commnet {
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 300;
-                font-size: 14px;
-                line-height: 170%;
-                /* or 24px */
-
-                /* delet icon color */
-
-                color: #a4a4a4;
-              }
-            }
-            .rating-comment {
-              display: flex;
-              align-items: center;
-              i {
-                margin: 0 3px;
-              }
-            }
+        .user-comments{
+          .last{
+            opacity: 0.4;
           }
-          .comment-content{
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 170%;
-            color: #2D2D2D;
-            width: 100%;
-            p{
-              width: 97%;
+          .user-comment {
+            .comment-info {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              .info-user {
+                display: flex;
+                align-items: center;
+                .name-sur {
+                  font-family: "Roboto";
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 1rem;
+                  line-height: 170%;
+                  color: #000000;
+                }
+                span {
+                  font-family: "Roboto";
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 14px;
+                  line-height: 170%;
+                  color: #a4a4a4;
+                  margin: 0 20px;
+                }
+                .date-commnet {
+                  font-family: "Roboto";
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 14px;
+                  line-height: 170%;
+                  /* or 24px */
+  
+                  /* delet icon color */
+  
+                  color: #a4a4a4;
+                }
+              }
+              .rating-comment {
+                display: flex;
+                align-items: center;
+                i {
+                  margin: 0 3px;
+                }
+              }
+            }
+            .comment-content{
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 170%;
+              color: #2D2D2D;
+              width: 100%;
+              p{
+                width: 97%;
+              }
             }
           }
         }
+        
         .more{
           display: flex;
           justify-content: center;
           align-items: center;
+          cursor: pointer;
+          &:hover{
+            color: red;
+          }
+          .more-text{
+            margin-right: 1rem;
+          }
+        }
+        .nonMore{
+          display: none;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          &:hover{
+            color: red;
+          }
           .more-text{
             margin-right: 1rem;
           }
@@ -459,6 +481,7 @@ body {
               font-weight: 400;
               font-size: 0.75rem;
               line-height: 1rem;
+              cursor: pointer;
             }
           }
         }
