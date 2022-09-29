@@ -230,6 +230,8 @@ body {
       margin: auto;
       width: 81.5%;
       .top-content {
+        display: flex;
+        justify-content: space-between;
         .left {
           width: 75%;
           .location {
@@ -672,6 +674,193 @@ body {
             }
           }
         }
+        .right-content {
+          margin-top: 80px;
+          width: 22.2%;
+          height: fit-content;
+          position: sticky;
+          top: 0;
+          right: 0;
+          .priceDiv {
+            padding: 15px;
+            background: #343f56;
+            box-shadow: 0px 0px 3.57143px rgba(0, 0, 0, 0.12);
+            border-radius: 5px;
+            .topPrice {
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 0.88rem;
+              line-height: 1.1875rem;
+              color: #ffffff;
+              margin-bottom: 8px;
+            }
+            .mainPrice {
+              display: flex;
+              margin-bottom: 17px;
+              .leftPrice {
+                background: #f54748;
+                border-radius: 3.57143px;
+                padding: 3px 9px;
+                margin-right: 8px;
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 1.3125rem;
+                color: #ffffff;
+              }
+              .rightPrice {
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.88rem;
+                line-height: 1.187rem;
+                color: #ffffff;
+                text-decoration: line-through;
+                display: flex;
+                align-items: center;
+              }
+            }
+            .priceButtons {
+              display: flex;
+              flex-direction: column;
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 1rem;
+              line-height: 1.3125rem;
+              .firstButton {
+                background: #fb9300;
+                border-radius: 3.57143px;
+                padding: 10px;
+                border: none;
+                color: #ffffff;
+                cursor: pointer;
+                &:hover{
+                background: #df8201;
+                }
+              }
+              .secondButton {
+                margin-top: 10px;
+                background: #ffffff;
+                border-radius: 3.57143px;
+                padding: 10px;
+                border: none;
+                color: #343f56;
+              }
+            }
+          }
+          .creditDiv {
+            margin-top: 15px;
+            padding: 9px 15px;
+            background: #ffffff;
+            box-shadow: 2px 2px 5px rgba(52, 63, 86, 0.1);
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            .leftCredit {
+              .calcText {
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 1.3125rem;
+                color: hsl(0, 0%, 18%);
+              }
+              .calcPrice {
+                display: flex;
+                align-items: center;
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 1.125rem;
+                .percent {
+                  color: #ff0000;
+                }
+                .monthMon {
+                  margin: 0 5px;
+                }
+              }
+            }
+          }
+          .fast-ordered {
+            margin-top: 15px;
+            padding: 15px;
+            background: #ffffff;
+            box-shadow: 2px 2px 5px rgba(52, 63, 86, 0.1);
+            border-radius: 5px;
+            .title {
+              display: flex;
+              justify-content: space-between;
+              font-family: "DM Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 1rem;
+              line-height: 1.3125rem;
+              color: #343f56;
+
+              p {
+                display: flex;
+                align-items: center;
+              }
+            }
+            .phoneNumber {
+              margin-top: 15px;
+              input {
+                background: #ffffff;
+                border: 1px solid #ebecef;
+                border-radius: 4px;
+                width: 100%;
+                padding: 12px;
+              }
+            }
+            .buyButton {
+              margin-top: 10px;
+              button {
+                width: 100%;
+                background: #ebecef;
+                border-radius: 4px;
+                border: none;
+                padding: 10px 0;
+                text-align: center;
+              }
+            }
+          }
+          .raziliq {
+            background: #ffffff;
+            box-shadow: 2px 2px 5px rgba(52, 63, 86, 0.1);
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            margin-top: 10px;
+            .left {
+              width: fit-content;
+              margin-right: 10px;
+            }
+            .right {
+              .top {
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 0.875rem;
+                line-height: 1.125rem;
+                color: #343f56;
+              }
+              .bottom{
+                font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 0.75rem;
+line-height: 1rem;
+color: #343F56;
+              }
+            }
+          }
+        }
+
       }
       .popular {
         padding-top: 30px;
