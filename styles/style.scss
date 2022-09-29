@@ -257,9 +257,10 @@ body {
               width: 45%;
               .selected-product {
                 padding: 35px;
-                width: 353px;
+                width: 16rem;
                 aspect-ratio: 1/1;
                 margin: 0 35px;
+                margin: auto;
                 img {
                   width: 100%;
                 }
@@ -273,10 +274,10 @@ body {
                       background: #ffffff;
                       border: 1px solid #ededed;
                       border-radius: 10px;
-                      width: 60px;
+                      width: 3.5rem;
                       aspect-ratio: 1/1;
                       img {
-                        padding: 12px;
+                        padding: 8px;
                         width: 100%;
                       }
                     }
@@ -339,7 +340,7 @@ body {
                   display: flex;
                 }
                 .item {
-                  padding: 20px;
+                  padding: .7rem;
                   border: 1px solid red1;
                   display: flex;
                   justify-content: center;

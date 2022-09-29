@@ -80,6 +80,21 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+        // when window width is >= 320px
+        950: {
+          slidesPerView: 4,
+          spaceBetween: 2
+        },
+        0:{
+          slidesPerView: 3,
+
+        },
+        1400:{
+            slidesPerView: 5,
+            spaceBetween: 2
+        }
+      },
 });
 const displayContacts = document.querySelector('#showContact')
 const contactIcon = document.querySelector('#contactIcon')

@@ -273,9 +273,10 @@ body {
 }
 .container .main .content .top-content .left .products .left .selected-product {
   padding: 35px;
-  width: 353px;
+  width: 16rem;
   aspect-ratio: 1/1;
   margin: 0 35px;
+  margin: auto;
 }
 .container .main .content .top-content .left .products .left .selected-product img {
   width: 100%;
@@ -290,11 +291,11 @@ body {
   background: #ffffff;
   border: 1px solid #ededed;
   border-radius: 10px;
-  width: 60px;
+  width: 3.5rem;
   aspect-ratio: 1/1;
 }
 .container .main .content .top-content .left .products .left .mySwiper .swiper-wrapper .swiper-slide .slide-img img {
-  padding: 12px;
+  padding: 8px;
   width: 100%;
 }
 .container .main .content .top-content .left .products .swiper-button-next {
@@ -350,7 +351,7 @@ body {
   display: flex;
 }
 .container .main .content .top-content .left .products .right .prod-adv .item {
-  padding: 20px;
+  padding: 0.7rem;
   border: 1px solid red1;
   display: flex;
   justify-content: center;
