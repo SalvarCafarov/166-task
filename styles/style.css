@@ -281,13 +281,13 @@ body {
   cursor: pointer;
 }
 .container .main .content .top-content .left .other-products .left:hover {
-  background-color: #ef8c00;
+  background-color: #EF8C00;
 }
 .container .main .content .top-content .left .other-products .left:hover .left-text {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .container .main .content .top-content .left .other-products .left:hover .right-icon {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .container .main .content .top-content .left .other-products .left .left-text {
   font-family: "Roboto";
@@ -312,13 +312,13 @@ body {
   cursor: pointer;
 }
 .container .main .content .top-content .left .other-products .right:hover {
-  background-color: #ef8c00;
+  background-color: #EF8C00;
 }
 .container .main .content .top-content .left .other-products .right:hover .left-text {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .container .main .content .top-content .left .other-products .right:hover .right-icon {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .container .main .content .top-content .left .other-products .right .left-text {
   font-family: "Roboto";
