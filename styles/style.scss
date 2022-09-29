@@ -271,9 +271,9 @@ body {
                 color: #ffffff;
                 margin-right: 27px;
               }
-              .right{
+              .right {
                 width: fit-content;
-                background: #F54748;
+                background: #f54748;
                 border-radius: 0px 4px 4px 4px;
                 padding: 4px 10px;
                 font-family: "Roboto";
@@ -329,18 +329,16 @@ body {
               top: 392px;
               position: absolute;
               color: #cdcdcd;
-              &::after{
-                font-size: 16px!important;
-             
-
+              &::after {
+                font-size: 16px !important;
               }
             }
             .swiper-button-prev {
               top: 392px;
               position: absolute;
               color: #cdcdcd;
-              &::after{
-             font-size: 16px!important;
+              &::after {
+                font-size: 16px !important;
               }
             }
             .right {
@@ -380,7 +378,7 @@ body {
                   display: flex;
                 }
                 .item {
-                  padding: .7rem;
+                  padding: 0.7rem;
                   border: 1px solid red1;
                   display: flex;
                   justify-content: center;
@@ -396,6 +394,56 @@ body {
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 120.19%;
+                  }
+                }
+              }
+            }
+          }
+          .responsive-layout {
+            .top-resp {
+              margin-bottom: 13px;
+              .head {
+                display: flex;
+                margin-bottom: 13px;
+                .kod {
+                  background: #ffffff;
+                  border-radius: 4px;
+                  width: 40%;
+                  height: 41px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin-right: 10px;
+
+                  p {
+                    font-family: "Roboto";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                  }
+                }
+                .item {
+                  height: 41px;
+                  margin-right: 10px;
+                  width: 15%;
+                  padding: 9px;
+                  background: #ffffff;
+                  border-radius: 4px;
+                  img {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+              .myswipper2{
+                overflow: visible!important;
+                .swiper-wrapper{
+                  .swipper-slide{
+                    border-radius: 4px!important;
+                    svg{
+                      border-radius: 4px;
+                    }
                   }
                 }
               }
@@ -778,8 +826,8 @@ body {
                 border: none;
                 color: #ffffff;
                 cursor: pointer;
-                &:hover{
-                background: #df8201;
+                &:hover {
+                  background: #df8201;
                 }
               }
               .secondButton {
@@ -890,18 +938,17 @@ body {
                 line-height: 1.125rem;
                 color: #343f56;
               }
-              .bottom{
-                font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 0.75rem;
-line-height: 1rem;
-color: #343F56;
+              .bottom {
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.75rem;
+                line-height: 1rem;
+                color: #343f56;
               }
             }
           }
         }
-
       }
       .popular {
         padding-top: 30px;

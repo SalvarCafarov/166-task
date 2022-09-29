@@ -96,6 +96,37 @@ var swiper = new Swiper(".mySwiper", {
         }
       },
 });
+var swiper2 = new Swiper(".mySwiper2", {
+    slidesPerView: 3,
+    slidesPerGroup: 1,
+    spaceBetween: 0,
+
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        1000: {
+          slidesPerView: 3,
+          spaceBetween: 2
+        },
+        700:{
+            slidesPerView: 3,
+          spaceBetween: 2
+        }, 500:{
+            slidesPerView: 2,
+          spaceBetween: 2
+        },
+        0:{
+            slidesPerView: 1,
+          spaceBetween: 1
+        }
+      },
+    
+});
 const displayContacts = document.querySelector('#showContact')
 const contactIcon = document.querySelector('#contactIcon')
 const locationContact = document.querySelector('.reLocation')
