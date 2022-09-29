@@ -227,135 +227,118 @@ body {
     .content {
       margin: auto;
       width: 81.5%;
-      .left {
-        width: 75%;
-        .location {
-          text-align: left;
-          margin: auto;
-          font-family: "DM Sans";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 16px;
-          padding: 28px 0;
-          color: #2d2d2d;
-        }
-        .products {
-          .left {
-            width: 25%;
-            .mySwiper {
-              .swiper-wrapper {
-                margin-left: 30px;
-                .swiper-slide {
-                  .slide-img {
-                    width: 35px;
-                    svg {
-                      width: 100%;
+      .top-content {
+        .left {
+          width: 75%;
+          .location {
+            text-align: left;
+            margin: auto;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 28px 0;
+            color: #2d2d2d;
+          }
+          .products {
+            .left {
+              width: 25%;
+              .mySwiper {
+                .swiper-wrapper {
+                  margin-left: 30px;
+                  .swiper-slide {
+                    .slide-img {
+                      width: 35px;
+                      svg {
+                        width: 100%;
+                      }
                     }
                   }
                 }
               }
             }
           }
-        }
-        .other-products {
-          display: flex;
-          justify-content: space-between;
-          margin-bottom: 20px;
-          .left {
-            width: 49%;
+          .other-products {
             display: flex;
             justify-content: space-between;
-            padding: 12px 20px;
-            background: #ffffff;
-            border-radius: 4px;
-            cursor: pointer;
-            &:hover{
-              background-color: #EF8C00;
-              .left-text{
-                color: #FFFFFF;
-              }
-              .right-icon{
-                color: #FFFFFF;
-              }
-            }
-            .left-text {
-              font-family: "Roboto";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 0.875rem;
-              line-height: 166.69%;
-              color: #4f4f4f;
-            }
-            .right-icon {
-              color: #f58634;
+            margin-bottom: 20px;
+            .left {
+              width: 49%;
               display: flex;
-              align-items: center;
-            }
-          }
-          .right {
-            width: 49%;
-            display: flex;
-            justify-content: space-between;
-            padding: 12px 20px;
-            background: #ffffff;
-            border-radius: 4px;
-            cursor: pointer;
-            &:hover{
-              background-color: #EF8C00;
-              .left-text{
-                color: #FFFFFF;
+              justify-content: space-between;
+              padding: 12px 20px;
+              background: #ffffff;
+              border-radius: 4px;
+              cursor: pointer;
+              &:hover {
+                background-color: #ef8c00;
+                .left-text {
+                  color: #ffffff;
+                }
+                .right-icon {
+                  color: #ffffff;
+                }
               }
-              .right-icon{
-                color: #FFFFFF;
+              .left-text {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 166.69%;
+                color: #4f4f4f;
+              }
+              .right-icon {
+                color: #f58634;
+                display: flex;
+                align-items: center;
               }
             }
-            .left-text {
-              font-family: "Roboto";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 0.875rem;
-              line-height: 166.69%;
-              color: #4f4f4f;
-            }
-            .right-icon {
-              color: #f58634;
+            .right {
+              width: 49%;
               display: flex;
+              justify-content: space-between;
+              padding: 12px 20px;
+              background: #ffffff;
+              border-radius: 4px;
+              cursor: pointer;
+              &:hover {
+                background-color: #ef8c00;
+                .left-text {
+                  color: #ffffff;
+                }
+                .right-icon {
+                  color: #ffffff;
+                }
+              }
+              .left-text {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 166.69%;
+                color: #4f4f4f;
+              }
+              .right-icon {
+                color: #f58634;
+                display: flex;
+                align-items: center;
+              }
+            }
+          }
+          .comments {
+            border-radius: 4px;
+            background-color: white;
+            padding: 20px 20px 20px 40px;
+            hr {
+              border: 1px solid #f2f2f2;
+              margin: 20px 0;
+            }
+            .top {
+              display: flex;
+              justify-content: space-between;
               align-items: center;
-            }
-          }
-        }
-        .comments {
-          border-radius: 4px;
-          background-color: white;
-          padding: 20px 20px 20px 40px;
-          hr {
-            border: 1px solid #f2f2f2;
-            margin: 20px 0;
-          }
-          .top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .left-top {
-              font-family: "Roboto";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 1.5rem;
-              line-height: 132.69%;
-              color: #2d2d2d;
-            }
-            .responsive-top{
-              display: none;
-              font-family: "Roboto";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 1.6rem;
-              line-height: 132.69%;
-              color: #2d2d2d;
-            }
-            .right-top {
-              .ortalama-rating {
+              .left-top {
                 font-family: "Roboto";
                 font-style: normal;
                 font-weight: 500;
@@ -363,209 +346,228 @@ body {
                 line-height: 132.69%;
                 color: #2d2d2d;
               }
-              .full-rating {
-                margin-right: 3px;
-                font-size: 1rem;
+              .responsive-top {
+                display: none;
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 132.69%;
+                color: #2d2d2d;
               }
-            }
-            p {
-              display: flex;
-              align-items: center;
-              i {
-                color: #fdd835;
-                margin: 0 3px;
-                &:last-of-type {
-                  color: #ededed;
+              .right-top {
+                .ortalama-rating {
+                  font-family: "Roboto";
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 1.5rem;
+                  line-height: 132.69%;
+                  color: #2d2d2d;
+                }
+                .full-rating {
+                  margin-right: 3px;
+                  font-size: 1rem;
+                }
+              }
+              p {
+                display: flex;
+                align-items: center;
+                i {
+                  color: #fdd835;
+                  margin: 0 3px;
+                  &:last-of-type {
+                    color: #ededed;
+                  }
                 }
               }
             }
-          }
-          .user-comments {
-            .last {
-              opacity: 0.4;
-            }
-            .user-comment {
-              .comment-info {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                .info-user {
+            .user-comments {
+              .last {
+                opacity: 0.4;
+              }
+              .user-comment {
+                .comment-info {
                   display: flex;
+                  justify-content: space-between;
                   align-items: center;
-                  .name-sur {
+                  .info-user {
+                    display: flex;
+                    align-items: center;
+                    .name-sur {
+                      font-family: "Roboto";
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 1rem;
+                      line-height: 170%;
+                      color: #000000;
+                    }
+                    span {
+                      font-family: "Roboto";
+                      font-style: normal;
+                      font-weight: 300;
+                      font-size: 14px;
+                      line-height: 170%;
+                      color: #a4a4a4;
+                      margin: 0 20px;
+                    }
+                    .date-commnet {
+                      font-family: "Roboto";
+                      font-style: normal;
+                      font-weight: 300;
+                      font-size: 0.875rem;
+                      line-height: 170%;
+                      color: #a4a4a4;
+                    }
+                  }
+                  .rating-comment {
+                    display: flex;
+                    align-items: center;
+                    i {
+                      margin: 0 3px;
+                    }
+                  }
+                }
+                .comment-content {
+                  font-family: "Roboto";
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 0.875rem;
+                  line-height: 170%;
+                  color: #2d2d2d;
+                  width: 100%;
+                  p {
+                    width: 97%;
+                  }
+                }
+              }
+            }
+
+            .more {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 14px;
+              cursor: pointer;
+              &:hover {
+                color: red;
+              }
+              .more-text {
+                margin-right: 1rem;
+              }
+            }
+            .nonMore {
+              display: none;
+              justify-content: center;
+              align-items: center;
+              font-size: 14px;
+              cursor: pointer;
+              &:hover {
+                color: red;
+              }
+              .more-text {
+                margin-right: 1rem;
+              }
+            }
+            .create-commet {
+              margin-top: 30px;
+              .title {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.5rem;
+                line-height: 132.69%;
+                color: #2d2d2d;
+              }
+              .comment-form {
+                margin-top: 15px;
+                .form-div {
+                  display: flex;
+                  justify-content: space-between;
+                  .left {
+                    width: 49%;
+                    .nameInput {
+                      width: 100%;
+                      margin-bottom: 20px;
+                      input {
+                        width: 100%;
+                        background: #ffffff;
+                        border: 1px solid #cdcdcd;
+                        border-radius: 4px;
+                        padding: 12px;
+                        &::placeholder {
+                          font-family: "Roboto";
+                          font-style: normal;
+                          font-weight: 400;
+                          font-size: 1rem;
+                          line-height: 1.1875rem;
+                          color: #adadad;
+                        }
+                      }
+                    }
+                    .surnameInput {
+                      width: 100%;
+                      input {
+                        width: 100%;
+                        background: #ffffff;
+                        border: 1px solid #cdcdcd;
+                        border-radius: 4px;
+                        padding: 12px;
+                        &::placeholder {
+                          font-family: "Roboto";
+                          font-style: normal;
+                          font-weight: 400;
+                          font-size: 1rem;
+                          line-height: 1.1875rem;
+                          color: #adadad;
+                        }
+                      }
+                    }
+                  }
+                  .right {
+                    width: 49%;
+                    textarea {
+                      width: 100%;
+                      height: 100%;
+                      border: 1px solid #cdcdcd;
+                      border-radius: 4px;
+                      padding: 12px;
+                      &::placeholder {
+                        font-family: "Roboto";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 1rem;
+                        line-height: 1.1875rem;
+                        color: #adadad;
+                      }
+                    }
+                  }
+                }
+                .form-footer {
+                  display: flex;
+                  justify-content: flex-end;
+                  align-items: center;
+                  margin-top: 20px;
+                  p {
+                    color: #fdd835;
+                    font-size: 1.2rem;
+                    i {
+                      cursor: pointer;
+                    }
+                  }
+                  button {
                     font-family: "Roboto";
                     font-style: normal;
                     font-weight: 500;
                     font-size: 1rem;
-                    line-height: 170%;
-                    color: #000000;
-                  }
-                  span {
-                    font-family: "Roboto";
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 14px;
-                    line-height: 170%;
-                    color: #a4a4a4;
-                    margin: 0 20px;
-                  }
-                  .date-commnet {
-                    font-family: "Roboto";
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 0.875rem;
-                    line-height: 170%;
-                    color: #a4a4a4;
-                  }
-                }
-                .rating-comment {
-                  display: flex;
-                  align-items: center;
-                  i {
-                    margin: 0 3px;
-                  }
-                }
-              }
-              .comment-content {
-                font-family: "Roboto";
-                font-style: normal;
-                font-weight: 300;
-                font-size: 0.875rem;
-                line-height: 170%;
-                color: #2d2d2d;
-                width: 100%;
-                p {
-                  width: 97%;
-                }
-              }
-            }
-          }
-
-          .more {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 14px;
-            cursor: pointer;
-            &:hover {
-              color: red;
-            }
-            .more-text {
-              margin-right: 1rem;
-            }
-          }
-          .nonMore {
-            display: none;
-            justify-content: center;
-            align-items: center;
-            font-size: 14px;
-            cursor: pointer;
-            &:hover {
-              color: red;
-            }
-            .more-text {
-              margin-right: 1rem;
-            }
-          }
-          .create-commet {
-            margin-top: 30px;
-            .title {
-              font-family: "Roboto";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 1.5rem;
-              line-height: 132.69%;
-              color: #2d2d2d;
-            }
-            .comment-form {
-              margin-top: 15px;
-              .form-div {
-                display: flex;
-                justify-content: space-between;
-                .left {
-                  width: 49%;
-                  .nameInput {
-                    width: 100%;
-                    margin-bottom: 20px;
-                    input {
-                      width: 100%;
-                      background: #ffffff;
-                      border: 1px solid #cdcdcd;
-                      border-radius: 4px;
-                      padding: 12px;
-                      &::placeholder {
-                        font-family: "Roboto";
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 1rem;
-                        line-height: 1.1875rem;
-                        color: #adadad;
-                      }
-                    }
-                  }
-                  .surnameInput {
-                    width: 100%;
-                    input {
-                      width: 100%;
-                      background: #ffffff;
-                      border: 1px solid #cdcdcd;
-                      border-radius: 4px;
-                      padding: 12px;
-                      &::placeholder {
-                        font-family: "Roboto";
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 1rem;
-                        line-height: 1.1875rem;
-                        color: #adadad;
-                      }
-                    }
-                  }
-                }
-                .right {
-                  width: 49%;
-                  textarea {
-                    width: 100%;
-                    height: 100%;
-                    border: 1px solid #cdcdcd;
+                    line-height: 1.1875rem;
+                    color: #f6f6f6;
+                    background: #fb9300;
                     border-radius: 4px;
-                    padding: 12px;
-                    &::placeholder {
-                      font-family: "Roboto";
-                      font-style: normal;
-                      font-weight: 400;
-                      font-size: 1rem;
-                      line-height: 1.1875rem;
-                      color: #adadad;
-                    }
-                  }
-                }
-              }
-              .form-footer {
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
-                margin-top: 20px;
-                p {
-                  color: #fdd835;
-                  font-size: 1.2rem;
-                  i {
+                    padding: 11px 42px;
+                    border: none;
+                    margin-left: 20px;
                     cursor: pointer;
                   }
-                }
-                button {
-                  font-family: "Roboto";
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 1rem;
-                  line-height: 1.1875rem;
-                  color: #f6f6f6;
-                  background: #fb9300;
-                  border-radius: 4px;
-                  padding: 11px 42px;
-                  border: none;
-                  margin-left: 20px;
-                  cursor: pointer;
                 }
               }
             }

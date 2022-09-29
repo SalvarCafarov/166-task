@@ -50,88 +50,101 @@
       .content {
         width: 93%;
         margin: auto;
-        .left {
-          width: 100%;
-          .other-products {
-            .left {
-              width: 100%;
-              .left-text {
-                font-size: 1.4rem;
-              }
-              .right-icon {
-                font-size: 1.4rem;
-              }
-            }
-            .right {
-              display: none;
-            }
-          }
-          .comments {
-            .top {
-              .left-top {
-                display: none;
-              }
-              .responsive-top {
-                display: block;
-              }
-              p {
-                i {
-                  font-size: 1.6rem;
+        .top-content {
+          .left {
+            width: 100%;
+            .other-products {
+              .left {
+                width: 100%;
+                .left-text {
+                  font-size: 1.4rem;
+                }
+                .right-icon {
+                  font-size: 1.4rem;
                 }
               }
+              .right {
+                display: none;
+              }
             }
-            .user-comments {
-              .user-comment {
-                .comment-info {
-                  .info-user {
-                    .name-sur {
+            .comments {
+              .top {
+                .left-top {
+                  display: none;
+                }
+                .responsive-top {
+                  display: block;
+                }
+                p {
+                  i {
+                    font-size: 1.6rem;
+                  }
+                }
+              }
+              .user-comments {
+                .user-comment {
+                  .comment-info {
+                    .info-user {
+                      .name-sur {
+                        font-size: 1.6rem;
+                      }
+                      span {
+                        display: none;
+                      }
+                      .date-commnet {
+                        display: none;
+                      }
+                    }
+                    .rating-comment {
                       font-size: 1.6rem;
                     }
-                    span {
-                      display: none;
-                    }
-                    .date-commnet {
-                      display: none;
-                    }
                   }
-                  .rating-comment {
+                  .comment-content {
                     font-size: 1.6rem;
                   }
                 }
-                .comment-content {
-                  font-size: 1.6rem;
+              }
+              .more {
+                justify-content: flex-start;
+              }
+              .nonMore {
+                justify-content: flex-start;
+              }
+              .create-commet {
+                .title {
+                  display: none;
                 }
-              }
-            }
-            .more {
-              justify-content: flex-start;
-            }
-            .nonMore {
-              justify-content: flex-start;
-            }
-            .create-commet {
-              .title {
-                display: none;
-              }
-              .comment-form {
-                .form-div {
-                  display: flex;
-                  flex-direction: column;
-                  .left {
-                    width: 100%;
-                    .nameInput {
-                      margin-bottom: 15px;
-                      input {
-                        padding: 15px;
-                        &::placeholder {
-                          font-size: 1.6rem;
-                          line-height: 1.9rem;
+                .comment-form {
+                  .form-div {
+                    display: flex;
+                    flex-direction: column;
+                    .left {
+                      width: 100%;
+                      .nameInput {
+                        margin-bottom: 15px;
+                        input {
+                          padding: 15px;
+                          &::placeholder {
+                            font-size: 1.6rem;
+                            line-height: 1.9rem;
+                          }
+                        }
+                      }
+                      .surnameInput {
+                        margin-bottom: 15px;
+                        input {
+                          padding: 15px;
+                          &::placeholder {
+                            font-size: 1.6rem;
+                            line-height: 1.9rem;
+                          }
                         }
                       }
                     }
-                    .surnameInput {
-                      margin-bottom: 15px;
-                      input {
+                    .right {
+                      width: 100%;
+                      textarea {
+                        min-height: 10rem;
                         padding: 15px;
                         &::placeholder {
                           font-size: 1.6rem;
@@ -140,36 +153,25 @@
                       }
                     }
                   }
-                  .right {
-                    width: 100%;
-                    textarea {
-                      min-height: 10rem;
+                  .form-footer {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 20px;
+                    p {
+                      color: #fdd835;
+                      font-size: 1.8rem;
+                      i {
+                        cursor: pointer;
+                      }
+                    }
+                    button {
+                      font-size: 1.6rem;
+                      line-height: 1.9rem;
                       padding: 15px;
-                      &::placeholder {
-                        font-size: 1.6rem;
-                        line-height: 1.9rem;
-                      }
-                    }
-                  }
-                }
-                .form-footer {
-                  display: flex;
-                  justify-content: flex-end;
-                  margin-top: 20px;
-                  p {
-                    color: #fdd835;
-                    font-size: 1.8rem;
-                    i {
+                      border: none;
+                      margin-left: 20px;
                       cursor: pointer;
                     }
-                  }
-                  button {
-                    font-size: 1.6rem;
-                    line-height: 1.9rem;
-                    padding: 15px;
-                    border: none;
-                    margin-left: 20px;
-                    cursor: pointer;
                   }
                 }
               }
