@@ -259,6 +259,50 @@ body {
   padding: 28px 0;
   color: #2d2d2d;
 }
+.container .main .content .top-content .left .responsive-layout {
+  display: none;
+}
+.container .main .content .top-content .left .responsive-layout .title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 132.69%;
+  color: #2d2d2d;
+}
+.container .main .content .top-content .left .responsive-layout .info-product {
+  display: flex;
+  margin: 18px 0;
+}
+.container .main .content .top-content .left .responsive-layout .info-product .left {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #fb9300;
+  border-radius: 0px 4px 4px 4px;
+  padding: 4px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #ffffff;
+  margin-right: 27px;
+}
+.container .main .content .top-content .left .responsive-layout .info-product .right {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #F54748;
+  border-radius: 0px 4px 4px 4px;
+  padding: 4px 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #ffffff;
+}
 .container .main .content .top-content .left .products {
   display: flex;
   background-color: white;
@@ -1351,6 +1395,12 @@ body {
   .container .main .content .top-content .left {
     width: 100%;
   }
+  .container .main .content .top-content .left .responsive-layout {
+    display: block;
+  }
+  .container .main .content .top-content .left .products {
+    display: none;
+  }
   .container .main .content .top-content .left .other-products .left {
     width: 100%;
   }
@@ -1477,6 +1527,9 @@ body {
     border: none;
     margin-left: 20px;
     cursor: pointer;
+  }
+  .container .main .content .top-content .right-content {
+    display: none;
   }
   .container .main .content .popular {
     display: none;

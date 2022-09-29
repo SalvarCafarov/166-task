@@ -53,6 +53,12 @@
         .top-content{
           .left {
             width: 100%;
+            .responsive-layout{
+              display: block;
+            }
+            .products {
+              display: none;
+            }
             .other-products {
               .left {
                 width: 100%;
@@ -176,6 +182,9 @@
                 }
               }
             }
+          }
+          .right-content {
+            display: none;
           }
         }
         .popular {
