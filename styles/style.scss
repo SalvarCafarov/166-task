@@ -227,7 +227,120 @@ body {
     .content {
       margin: auto;
       width: 81.5%;
+      .comments {
+        border-radius: 4px;
+        background-color: white;
+        width: 75%;
+        padding: 20px 20px 20px 40px;
+        hr {
+          border: 1px solid #f2f2f2;
+          margin: 20px 0;
+        }
+        .top {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .left-top {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 132.69%;
+            color: #2d2d2d;
+          }
+          .right-top {
+            .ortalama-rating {
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 132.69%;
+              color: #2d2d2d;
+            }
+            .full-rating {
+              margin-right: 3px;
+            }
+          }
+          p {
+            display: flex;
+            align-items: center;
+            i {
+              color: #fdd835;
+              margin: 0 3px;
+              &:last-of-type {
+                color: #ededed;
+              }
+            }
+          }
+        }
+        .user-comment {
+          .comment-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .info-user {
+              display: flex;
+              align-items: center;
+              .name-sur {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1rem;
+                line-height: 170%;
+                color: #000000;
+              }
+              span {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 170%;
+                color: #a4a4a4;
+                margin: 0 20px;
+              }
+              .date-commnet {
+                font-family: "Roboto";
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 170%;
+                /* or 24px */
 
+                /* delet icon color */
+
+                color: #a4a4a4;
+              }
+            }
+            .rating-comment {
+              display: flex;
+              align-items: center;
+              i {
+                margin: 0 3px;
+              }
+            }
+          }
+          .comment-content{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 170%;
+            color: #2D2D2D;
+            width: 100%;
+            p{
+              width: 97%;
+            }
+          }
+        }
+        .more{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .more-text{
+            margin-right: 1rem;
+          }
+        }
+      }
       .popular {
         padding-top: 30px;
         padding-bottom: 30px;
