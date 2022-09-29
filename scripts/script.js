@@ -67,7 +67,7 @@ console.log(cardslar)
         }
     })
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4,
+    slidesPerView: 5,
     spaceBetween: 2,
     slidesPerGroup: 5,
     loop: true,

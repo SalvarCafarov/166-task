@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -254,17 +255,114 @@ body {
   padding: 28px 0;
   color: #2d2d2d;
 }
+.container .main .content .top-content .left .products {
+  display: flex;
+  background-color: white;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 49px;
+  padding-inline: 20px;
+}
 .container .main .content .top-content .left .products .left {
-  width: 25%;
+  position: relative;
+  width: 45%;
+}
+.container .main .content .top-content .left .products .left .selected-product {
+  padding: 35px;
+  width: 353px;
+  aspect-ratio: 1/1;
+  margin: 0 35px;
+}
+.container .main .content .top-content .left .products .left .selected-product img {
+  width: 100%;
+}
+.container .main .content .top-content .left .products .left .mySwiper {
+  width: 80%;
 }
 .container .main .content .top-content .left .products .left .mySwiper .swiper-wrapper {
-  margin-left: 30px;
+  width: 100%;
 }
 .container .main .content .top-content .left .products .left .mySwiper .swiper-wrapper .swiper-slide .slide-img {
-  width: 35px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  width: 60px;
+  aspect-ratio: 1/1;
 }
-.container .main .content .top-content .left .products .left .mySwiper .swiper-wrapper .swiper-slide .slide-img svg {
+.container .main .content .top-content .left .products .left .mySwiper .swiper-wrapper .swiper-slide .slide-img img {
+  padding: 12px;
   width: 100%;
+}
+.container .main .content .top-content .left .products .swiper-button-next {
+  top: 392px;
+  position: absolute;
+  color: #cdcdcd;
+}
+.container .main .content .top-content .left .products .swiper-button-next::after {
+  font-size: 16px !important;
+}
+.container .main .content .top-content .left .products .swiper-button-prev {
+  top: 392px;
+  position: absolute;
+  color: #cdcdcd;
+}
+.container .main .content .top-content .left .products .swiper-button-prev::after {
+  font-size: 16px !important;
+}
+.container .main .content .top-content .left .products .right {
+  width: 55%;
+}
+.container .main .content .top-content .left .products .right h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 132.69%;
+  margin-bottom: 10px;
+  color: #2d2d2d;
+}
+.container .main .content .top-content .left .products .right .code {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  color: #7a7a7a;
+}
+.container .main .content .top-content .left .products .right .prod-content {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 166.69%;
+  color: #2d2d2d;
+  margin-bottom: 26px;
+}
+.container .main .content .top-content .left .products .right .prod-adv .top {
+  display: flex;
+}
+.container .main .content .top-content .left .products .right .prod-adv .bottom {
+  display: flex;
+}
+.container .main .content .top-content .left .products .right .prod-adv .item {
+  padding: 20px;
+  border: 1px solid red1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #efefef;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+.container .main .content .top-content .left .products .right .prod-adv .item .contentt {
+  margin-left: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120.19%;
 }
 .container .main .content .top-content .left .other-products {
   display: flex;
@@ -281,13 +379,13 @@ body {
   cursor: pointer;
 }
 .container .main .content .top-content .left .other-products .left:hover {
-  background-color: #EF8C00;
+  background-color: #ef8c00;
 }
 .container .main .content .top-content .left .other-products .left:hover .left-text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .container .main .content .top-content .left .other-products .left:hover .right-icon {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .container .main .content .top-content .left .other-products .left .left-text {
   font-family: "Roboto";
@@ -312,13 +410,13 @@ body {
   cursor: pointer;
 }
 .container .main .content .top-content .left .other-products .right:hover {
-  background-color: #EF8C00;
+  background-color: #ef8c00;
 }
 .container .main .content .top-content .left .other-products .right:hover .left-text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .container .main .content .top-content .left .other-products .right:hover .right-icon {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .container .main .content .top-content .left .other-products .right .left-text {
   font-family: "Roboto";
